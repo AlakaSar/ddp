@@ -32,8 +32,10 @@ About mtcars dataset : The data was extracted from the 1974 Motor Trend US magaz
 The mtcars dataset has 32 entries with 11 columns. The mileage (mpg) variation summary is as follows:
 
 
-```{r, echo=FALSE}
-summary(mtcars$mpg)
+
+```
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   10.40   15.42   19.20   20.09   22.80   33.90
 ```
 
 ---
@@ -49,6 +51,4 @@ It also shows the summary of the predicted varibale selected
 
 ## Sample Regression
 
-```{r, echo=FALSE}
-plot (mtcars$cyl, mtcars$mpg)
-```
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
